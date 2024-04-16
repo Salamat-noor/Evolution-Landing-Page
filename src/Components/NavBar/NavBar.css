@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px calc(100% - 95%);
+  color: #dadada;
+}
+.nav-logo {
+  font-size: 42px;
+  font-weight: 600;
+  font-style: normal;
+}
+.nav-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  gap: 90px;
+}
+.nav-contact {
+  border-radius: 50px;
+  padding: 10px 38px;
+  background: #fff;
+  color: #262626;
+}
